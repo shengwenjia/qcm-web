@@ -1,0 +1,111 @@
+.subheader{
+  display: none;
+  height: 48px;
+  border-bottom: 1px solid #e9e9e9;
+  background: #fff;
+  margin-bottom: 12px;
+}
+
+.wrapper{
+  padding: 0 30px;
+}
+
+.breadcrumb{
+  margin: 0 0 -17px 24px;
+}
+
+.container{
+  background: #fff;
+  margin: 24px 0 0 0;
+  position: relative;
+  padding: 0;
+  overflow: auto;
+}
+
+.content{
+  min-width: 960px;
+  min-height: 650px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.views {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  // padding: 10px;
+  float: left;
+  position: relative;
+  // margin: 10px;
+}
+
+.corner{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 120px;
+  height: 120px;  
+  line-height:120px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  background:linear-gradient(-150deg,transparent 1.5em, yellowgreen  0);
+  border-radius:.5em;
+}
+.corner:before{
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  background:
+  linear-gradient(to left bottom,transparent 50%, rgba(0,0,0,.2) 0, rgba(0,0,0,.4)) 100% 0 no-repeat;
+  width: 1.73em; height: 3em;
+  transform: translateY(-1.3em) rotate(-30deg);
+  transform-origin: bottom right;
+  border-bottom-left-radius: inherit;
+  box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.15);
+}
+.corner:hover{
+  color: white;
+}
+
+.main_kinds{
+  width: 80%;
+  height: 275px;
+  margin: 0 auto;
+}
+
+.main_kinds li{
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 0 0 0;
+}
+
+.kinds_content{
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.kinds_content:hover{
+  background-color: #EFEFEF;
+  color: #555454;
+}
+
+.kinds_icon{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+}
+
+.kinds_introduce{  
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+}

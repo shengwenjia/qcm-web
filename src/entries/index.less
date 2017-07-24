@@ -1,0 +1,108 @@
+
+:global {
+  html, body, #root {
+    height: 100%;
+    /*background-color: #ECECEC;*/
+    background-color: #fff;
+    font-family: "Microsoft YaHei" !important;
+    overflow-y: hidden !important;
+  }
+  label {
+    font-weight: normal !important;
+  }
+  .ant-menu-vertical{
+    border: none !important;
+  }
+  .ant-checkbox-wrapper{
+    margin-left: 0 !important;
+  }
+  .ant-spin{
+    top: 0;
+    left: 0;
+  }
+  .text_center{
+    text-align: center !important;
+  }
+  .dynamic-delete-button {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+    color: #999;
+    transition: all .3s;
+  }
+  .dynamic-delete-button:hover {
+    color: #777;
+  }
+  .dynamic-delete-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  .temp_broadcastmodal {
+    width: 75% !important;
+  }
+  .ant-table-header {
+    overflow-y: hidden !important;
+  }
+  /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: #f5f5f5;
+  }
+  /*定义滚动条的轨道，内阴影及圆角*/
+  ::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  /*定义滑块，内阴影及圆角*/
+  ::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #999;
+  }
+  .ant-menu-item-active {
+    background-color: rgba(0, 0, 0, 0.0470588) !important;
+  }
+  .ant-tabs-nav-container {
+    font-size: 12px !important;
+  }
+
+  .ant-form label {
+    color: rgba(0, 0, 0, 0.65) !important;
+  }
+
+  .ant-layout-sider-collapsed .anticon {
+    font-size: 12px;
+    // margin-left: 4px;
+  }
+
+  .ant-layout-sider-collapsed .nav-text {
+    display: none;
+  }
+
+  .ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none;    
+  }
+  .ant-menu-submenu-vertical .ant-menu-submenu-title {
+    padding: 0 6px !important;
+  }
+
+  .trigger {
+    font-size: 12px;
+    line-height: 12px;
+    // padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+
+  .trigger:hover {
+    color: #108ee9;
+  }
+
+  .ant-layout {
+    background-color: #fff !important;
+    height: calc(~"100% - 70px") !important;
+  }
+}
